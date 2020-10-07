@@ -56,8 +56,7 @@ public class arbolBB {
                 // Cambiar raiz 
                 raiz = nRaiz; 
             } 
-            else  // If root is not full, call insertNonFull for root 
-                // Si la raiz no esta llena insertar con método de nonFull
+            else  // Si no esta llena la raíz usar método notNull del nodo
                 raiz.insertarNoFull(valor); 
         } 
     } 
